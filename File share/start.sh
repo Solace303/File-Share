@@ -10,6 +10,6 @@ if [ -z "$WLAN_IP" ]; then
 fi
 
 # Run the Python script with the detected IP
-python3 "/home/solace/Bot/File share/server3.py" --bind "$WLAN_IP"
+python3 "/home/solace/Bot/File share/server5.py" --bind "$WLAN_IP"
 
 exec bash
